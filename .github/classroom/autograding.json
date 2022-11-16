@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "Part 2",
+      "setup": "cmake .;make Sandbox_Tests",
+      "run": "timeout 5m ./Sandbox_Tests \"Part 2\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Part 3",
+      "setup": "cmake .;make Sandbox_Tests",
+      "run": "timeout 5m ./Sandbox_Tests \"Part 3\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Part 4",
+      "setup": "cmake .;make Sandbox_Tests",
+      "run": "timeout 5m ./Sandbox_Tests \"Part 4\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Part 5",
+      "setup": "cmake .;make Sandbox_Tests",
+      "run": "timeout 5m ./Sandbox_Tests \"Part 5\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Size",
+      "setup": "cmake .;make PriorityQueue_Tests",
+      "run": "timeout 5m ./PriorityQueue_Tests \"Size\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Enqueue middle",
+      "setup": "cmake .;make PriorityQueue_Tests",
+      "run": "timeout 5m ./PriorityQueue_Tests \"Enqueue middle\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 3
+    },
+    {
+      "name": "Enqueue Back",
+      "setup": "cmake .;make PriorityQueue_Tests",
+      "run": "timeout 5m ./PriorityQueue_Tests \"Enqueue Back\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 3
+    },
+    {
+      "name": "Enqueue/Dequeue Stress Test",
+      "setup": "cmake .;make PriorityQueue_Tests",
+      "run": "timeout 5m ./PriorityQueue_Tests \"Enqueue/Dequeue Stress Test\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 4
+    }
+  ]
+}
