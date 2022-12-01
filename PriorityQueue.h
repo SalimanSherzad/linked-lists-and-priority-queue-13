@@ -6,6 +6,8 @@ class PriorityQueue
 {
 public:
 	PriorityQueue();
+
+
 	~PriorityQueue();
 
 	int Dequeue();

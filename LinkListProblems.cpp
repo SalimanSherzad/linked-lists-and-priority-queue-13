@@ -101,32 +101,62 @@ void Part1(Node* headptr) {
     //(hint: compare the arguments and preconditions+postconditions for Part1 and Part2)
 
     //write your answer for Part1 here
-
+    // we need to use pass by reference
 }
 
 void Part2(Node*& headptr) {
 
 
     //Write your code for Part2 here
-
+    headptr = new Node;
+    headptr->value = 42;
+    headptr->next = nullptr;
 }
 
 void Part3(Node*& list1head) {
    
 
     //Write your code for Part3 here
+    list1head = new Node;
+    list1head->value = 1;
+    list1head->next = new Node;
+    list1head->next->value = 2;
+    list1head->next->next = NULL;
+
+
 }
 
 void Part4(Node*& list2head) {
  
 
     //Write your code for Part4 here
+    list2head = new Node;
+    list2head->value = 3;
+    list2head->next = new Node;
+    list2head->next->value = 4;
+    list2head->next->next = NULL;
+
+
 }
 
 void Part5(Node*& list1head, Node*& list2head) {
  
 
     //Write your code for Part5 here
+    list1head = new Node;
+    list1head->value = 4;
+    list1head->next = new Node;
+    list1head->next->value = 1;
+    list1head->next->next = NULL;
+
+    list2head = new Node;
+    list2head->value = 2;
+    list2head->next = new Node;
+    list2head->next->value = 3;
+    list2head->next->next = NULL;
+
+
+
 }
 
 //PrintList is given.  You do not need to modify this function.
