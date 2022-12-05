@@ -1,6 +1,6 @@
 ![Points badge](../../blob/badges/.github/badges/points.svg)
 
-> **Late Days:** I am using 0 late days
+> **Late Days:** I am using 3 late days
 
 # Assignment 13:  Introduction to Linked Lists and the Priority Queue
 
